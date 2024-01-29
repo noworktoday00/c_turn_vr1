@@ -106,11 +106,25 @@
       </div>
       <div class="col-3 d-none d-md-block">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item bg-prim-back">商品分類[1]</li>
-          <li class="list-group-item bg-prim-back">商品分類[2]</li>
-          <li class="list-group-item bg-prim-back">商品分類[3]</li>
-          <li class="list-group-item bg-prim-back">商品分類[4]</li>
-          <li class="list-group-item bg-prim-back">商品分類[5]</li>
+          <li class="list-group-item bg-prim-back">
+            <a href="#" class="text-dark text-decoration-none">皮件 DIY 材料包</a>
+          </li>
+          <li class="list-group-item bg-prim-back">
+            <a href="#" class="text-dark text-decoration-none">皮件 DIY 工具</a>
+          </li>
+          <li class="list-group-item bg-prim-back">
+            <a href="#" class="text-dark text-decoration-none">其他手工藝商品</a>
+          </li>
+          <li class="list-group-item bg-prim-back">
+            <a href="#"
+              class="text-dark text-decoration-none">手工點心</a>
+          </li>
+          <li class="list-group-item bg-prim-back">
+            <router-link to="cart" class="text-decoration-none text-dark">
+              查看購物車
+              <i class="bi bi-cart4 ms-2"></i>
+            </router-link>
+          </li>
         </ul>
       </div>
     </div>
